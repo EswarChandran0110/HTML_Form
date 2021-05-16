@@ -73,7 +73,7 @@ document.getElementById('btn').addEventListener('click',function(e){
    if ((Fname==="")||(Lname==="")||(addr==="")||(pin==="")||(state==="")||(country==="")||(count<2) || !(document.querySelector('input[name="gender"]:checked'))){
       alert("Fill all the arguments");
       if((count<2)){
-         alert("Select Atleast Two Food Choices")
+         alert("Select Atleast Two Food Choices");
       }
    }else{
       Fnamecell.innerText= Fname;
@@ -87,7 +87,7 @@ document.getElementById('btn').addEventListener('click',function(e){
          const gender = document.querySelector('input[name="gender"]:checked').value;
          Gendercell.innerText = gender;
          }catch(err){
-            alert('select the Gender ')
+            alert('select the Gender ');
             
        }
          }
