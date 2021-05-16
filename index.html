@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <form id="form"  >
+      <div id="Leftside">
+        <div id="header"><h1>Survey Form</h1></div>
+        <div class="L1">
+          <h3 class="info">First Name:</h3><br>
+          <h3 class="info">Last Name:</h3><br>
+          <h3 class="info">Address:</h3><br>
+          <h3 class="info">Pincode:</h3><br>
+        </div>
+        
+        <div class="L2">
+          <input type="text" id="Fname" class="text"><br>
+          <input type="text" id="Lname" class="text"><br>
+          <input type="text"  id="addr" class="text"><br>
+          <input type="number"  id="pin" class="text"><br>
+        </div>
+      </div>
+      <div id="rightside">
+        <div class="R1">
+          <h3 class="info">Gender:</h3><br>
+          <h3 class="info ">Food Choice:</h3><h6 class="fc"><em>(please select atleast two food choice)</em></h6><br>
+          <h3 class="info">State:</h3><br>
+          <h3 class="info">Country:</h3>
+
+        </div>
+        <div class="R2">
+          <div class="R2d">
+          <input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label><br>
+          <input type="radio" name="gender" id="female" value="Female"><label for="female">Female</label><br>
+          <input type="radio" name="gender" id="others" value="Others"><label for="others">Others</label><br>
+         </div>
+          <div class="R2d">
+          <input type="checkbox" id="sindian" value="South Indian Cusine" class="food"><label for="sindian">South Indian Cusine</label><br>
+          <input type="checkbox" id="nindian" value="North Indian Cusine" class="food"><label for="nindian">North Indian Cusine</label><br>
+          <input type="checkbox" id="european" value="European Cusine" class="food"><label for="european">European Cusine</label><br>
+          <input type="checkbox" id="continental" value="Continental Cusine" class="food"><label for="continental">Continental Cusine</label><br>
+          <input type="checkbox" id="chinese" value="Chinese Cusine" class="food"><label for="chinese">Chinese Cusine</label><br>
+          </div>
+          <input type="text" id="state" class="text"><br>
+          <input type="text" id="country" class="text"><br>
+       </div>
+      </div>
+        <button type="submit" id="btn"  >Submit</button>
+    </form>
+  
+     <table id="table">
+         
+     </table> 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
