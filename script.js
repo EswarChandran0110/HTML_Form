@@ -69,12 +69,7 @@ document.getElementById('btn').addEventListener('click',function(e){
        foodchoice = foodchoice +"* "+ chinese.value+" ";
        count++;
     }
-   //  if(count<2){
-   //    Foodcell.innerText= foodchoice;
-      
-   //  }else{
-   //    alert('Select Atleast Two Food Choice');
-   //  } 
+   
    if ((Fname==="")||(Lname==="")||(addr==="")||(pin==="")||(state==="")||(country==="")||(count<2) || !(document.querySelector('input[name="gender"]:checked'))){
       alert("Fill all the arguments");
       if((count<2)){
